@@ -1,0 +1,15 @@
+{
+  "name": "cashstrap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo no tests yets",
+    "start": "node index.js"
+  },
+  "author": "Chris Troutner <chris.troutner@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "webtorrent": "^0.107.17"
+  }
+}
