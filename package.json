@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo no tests yets",
-    "start": "node index.js"
+    "start": "node serve-cashstrap.js"
   },
   "author": "Chris Troutner <chris.troutner@gmail.com>",
   "license": "MIT",
