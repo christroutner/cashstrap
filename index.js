@@ -20,10 +20,6 @@ const filePath = "../";
 
 // const fileName = `./fox.jpg`
 
-const options = {
-  name: "fox.jpg"
-};
-
 async function uploadFiles() {
   try {
     // Report any torrent errors.
@@ -41,7 +37,7 @@ async function uploadFiles() {
       console.log(`Preparing to share this file: `);
       console.log(fileName);
 
-      const path = `${filePath}${fileName}`
+      const path = `${filePath}${fileName}`;
 
       // Upload file to IPFS
       const ipfsData = await ipfs.upload(path);
@@ -49,7 +45,8 @@ async function uploadFiles() {
       console.log(`IPFS hash: ${ipfsHash}`);
 
       // const torrent = await client.seed(fileName, options)
-      const magnetURI = await seedFile(path);
+      const options = { name: fileName };
+      const magnetURI = await seedFile(path, options);
 
       console.log(`File is being seeded as torrent. Magnet URI:`);
       console.log(magnetURI);
@@ -62,8 +59,8 @@ async function uploadFiles() {
 }
 uploadFiles();
 
-// Wraps the seed call in a promise.
-function seedFile(filename) {
+// Wraps the torrent seed call in a Promise.
+function seedFile(filename, options) {
   try {
     return new Promise(resolve => {
       client.seed(filename, options, torrent => {
