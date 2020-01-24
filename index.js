@@ -41,13 +41,15 @@ async function uploadFiles() {
       console.log(`Preparing to share this file: `);
       console.log(fileName);
 
+      const path = `${filePath}${fileName}`
+
       // Upload file to IPFS
-      const ipfsData = await ipfs.upload(fileName);
+      const ipfsData = await ipfs.upload(path);
       const ipfsHash = ipfsData[ipfsData.length - 1].hash;
       console.log(`IPFS hash: ${ipfsHash}`);
 
       // const torrent = await client.seed(fileName, options)
-      const magnetURI = await seedFile(fileName);
+      const magnetURI = await seedFile(path);
 
       console.log(`File is being seeded as torrent. Magnet URI:`);
       console.log(magnetURI);
