@@ -10,7 +10,6 @@
   "author": "Chris Troutner <chris.troutner@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "ipfs": "^0.40.0",
     "webtorrent": "^0.107.17"
   }
 }

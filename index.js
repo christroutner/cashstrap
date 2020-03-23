@@ -5,18 +5,17 @@
 const WebTorrent = require("webtorrent");
 const client = new WebTorrent();
 
-const IPFS = require("./lib/ipfs");
-const ipfs = new IPFS();
+// const IPFS = require("./lib/ipfs");
+// const ipfs = new IPFS();
 
 const fileNames = [
-  `slpdb-mainnet-01-14-2020-929f59a5550cf269bc49a2c7853fd0bf59ec894a-617806.zip`,
-  `blockbook-testnet-01-21-2020-1355060.zip`,
-  `blockbook-mainnet-01-21-20-618876.zip`,
-  `bitcore-node-testnet-09-13-2019.zip`,
-  `bitcore-node-bch-mainnet-618830-01-21-2020.zip`
+  `bch-abc-mainnet-0.20.10-01-25-2020-619429.zip`,
+  `bch-abc-testnet-01-25-2020-1355757.zip`,
+  `blockbook-mainnet-v0.3.0-03-20-2020-625868.zip`,
+  `blockbook-testnet-v0.3.0-03-10-2020-1365676.zip`
 ];
 
-const filePath = "../";
+const filePath = "../files/";
 
 // const fileName = `./fox.jpg`
 
@@ -28,7 +27,7 @@ async function uploadFiles() {
     });
 
     // start IPFS
-    await ipfs.startIPFS();
+    // await ipfs.startIPFS();
 
     // Loop through each file.
     for (let i = 0; i < fileNames.length; i++) {
@@ -40,9 +39,9 @@ async function uploadFiles() {
       const path = `${filePath}${fileName}`;
 
       // Upload file to IPFS
-      const ipfsData = await ipfs.upload(path);
-      const ipfsHash = ipfsData[ipfsData.length - 1].hash;
-      console.log(`IPFS hash: ${ipfsHash}`);
+      // const ipfsData = await ipfs.upload(path);
+      // const ipfsHash = ipfsData[ipfsData.length - 1].hash;
+      // console.log(`IPFS hash: ${ipfsHash}`);
 
       // const torrent = await client.seed(fileName, options)
       const options = { name: fileName };
