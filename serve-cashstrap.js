@@ -9,13 +9,15 @@ const client = new WebTorrent();
 // const ipfs = new IPFS();
 
 const fileNames = [
-  `bch-abc-mainnet-0.20.10-01-25-2020-619429.zip`,
-  `bch-abc-testnet-01-25-2020-1355757.zip`,
-  `blockbook-mainnet-v0.3.0-03-20-2020-625868.zip`,
-  `blockbook-testnet-v0.3.0-03-10-2020-1365676.zip`
+  `abc-mainnet-627883-v0.21.2-03-24-2020.zip`,
+  `abc-testnet-1368227-v0.21.2-03-24-2020.zip`,
+  `blockbook-bch-mainnet-v0.3.2-03-23-2020.zip`,
+  `blockbook-bch-testnet-v0.3.2-03-23-2020.zip`,
+  `slpdb-v1-mainnet-03-23-2020-0114e79ff77488c4b90e800638b61a5715230c05.zip`,
+  `slpdb-v1-testnet-03-24-2020-0114e79ff77488c4b90e800638b61a5715230c05.zip`
 ];
 
-const filePath = "../files/";
+const filePath = "/mnt/HC_Volume_4733554/files";
 
 // const fileName = `./fox.jpg`
 
