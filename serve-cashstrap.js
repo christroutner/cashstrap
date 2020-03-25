@@ -17,7 +17,7 @@ const fileNames = [
   `slpdb-v1-testnet-03-24-2020-0114e79ff77488c4b90e800638b61a5715230c05.zip`
 ];
 
-const filePath = "/mnt/HC_Volume_4733554/files";
+const filePath = "/mnt/HC_Volume_4733554/files/";
 
 // const fileName = `./fox.jpg`
 
