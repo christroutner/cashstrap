@@ -14,7 +14,9 @@ const fileNames = [
   `blockbook-bch-mainnet-v0.3.2-03-23-2020.zip`,
   `blockbook-bch-testnet-v0.3.2-03-23-2020.zip`,
   `slpdb-v1-mainnet-03-23-2020-0114e79ff77488c4b90e800638b61a5715230c05.zip`,
-  `slpdb-v1-testnet-03-24-2020-0114e79ff77488c4b90e800638b61a5715230c05.zip`
+  `slpdb-v1-testnet-03-24-2020-0114e79ff77488c4b90e800638b61a5715230c05.zip`,
+  `fulcrum-testnet-04-12-2020.zip`,
+  `fulcrum-mainnet-04-12-2020.zip`
 ];
 
 const filePath = "/mnt/HC_Volume_4733554/files/";
