@@ -13,8 +13,8 @@ const fileNames = [
   `abc-testnet-1368227-v0.21.2-03-24-2020.zip`,
   `blockbook-bch-mainnet-v0.3.2-03-23-2020.zip`,
   `blockbook-bch-testnet-v0.3.2-03-23-2020.zip`,
-  `slpdb-v1-mainnet-03-23-2020-0114e79ff77488c4b90e800638b61a5715230c05.zip`,
-  `slpdb-v1-testnet-03-24-2020-0114e79ff77488c4b90e800638b61a5715230c05.zip`,
+  `slpdb-v1-mainnet-07-13-2020-643744-54714dfec7f82487d6d08dca19ae88918e7f8eef.zip`,
+  `slpdb-v1-testnet-07-13-2020-1394061-54714dfec7f82487d6d08dca19ae88918e7f8eef.zip`,
   `fulcrum-testnet-04-12-2020.zip`,
   `fulcrum-mainnet-04-12-2020.zip`
 ];
