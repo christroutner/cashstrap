@@ -42,7 +42,7 @@ const fileNames = [
     filename: 'fulcrum-testnet-10-29-2020.zip'
   },
   {
-    path: '/mnt/HC_Volume_4733554/files/',
+    path: '/mnt/HC_Volume_7319195/',
     filename: 'bchn-mainnet-655089-09-30-2020.zip'
   }
 ];
