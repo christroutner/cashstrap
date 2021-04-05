@@ -17,22 +17,13 @@ const fileNames = [
     path: '/mnt/HC_Volume_4733554/files/',
     filename: 'abc-testnet-1417941-v0.22.5-10-27-2020.zip'
   },
-/*  {
-    path: '/mnt/HC_Volume_4733554/files/',
-    filename: 'blockbook-bch-mainnet-v0.3.2-10-28-2020.zip'
-  },
-  {
-    path: '/mnt/HC_Volume_4733554/files/',
-    filename: 'blockbook-bch-testnet-v0.3.2-10-28-2020.zip'
-  },
-*/
   {
     path: '/mnt/HC_Volume_4733554/files/',
     filename: 'slpdb-mainnet-08-06-2020-647202-2f23af5122f11c24fb86026bea2b198a024c8f9b.zip'
   },
   {
     path: '/mnt/HC_Volume_4733554/files/',
-    filename: 'slpdb-testnet-08-06-2020-1399300-2f23af5122f11c24fb86026bea2b198a024c8f9b.zip'
+    filename: 'slpdb-testnet-bchn-01-20-21-f1f48a3b7a852e24fd26b3baf6df65b47de6d89e-1431114.zip'
   },
   {
     path: '/mnt/HC_Volume_4733554/files/',
