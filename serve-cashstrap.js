@@ -17,7 +17,7 @@ const fileNames = [
     path: '/mnt/HC_Volume_4733554/files/',
     filename: 'abc-testnet-1417941-v0.22.5-10-27-2020.zip'
   },
-  {
+/*  {
     path: '/mnt/HC_Volume_4733554/files/',
     filename: 'blockbook-bch-mainnet-v0.3.2-10-28-2020.zip'
   },
@@ -25,6 +25,7 @@ const fileNames = [
     path: '/mnt/HC_Volume_4733554/files/',
     filename: 'blockbook-bch-testnet-v0.3.2-10-28-2020.zip'
   },
+*/
   {
     path: '/mnt/HC_Volume_4733554/files/',
     filename: 'slpdb-mainnet-08-06-2020-647202-2f23af5122f11c24fb86026bea2b198a024c8f9b.zip'
