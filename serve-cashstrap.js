@@ -9,34 +9,56 @@ const client = new WebTorrent();
 // const ipfs = new IPFS();
 
 const fileNames = [
-  {
-    path: '/mnt/HC_Volume_4733554/files/',
-    filename: 'abc-mainnet-658958-v0.22.4-10-27-2020.zip'
-  },
-  {
-    path: '/mnt/HC_Volume_4733554/files/',
-    filename: 'abc-testnet-1417941-v0.22.5-10-27-2020.zip'
-  },
-  {
-    path: '/mnt/HC_Volume_4733554/files/',
-    filename: 'slpdb-mainnet-08-06-2020-647202-2f23af5122f11c24fb86026bea2b198a024c8f9b.zip'
-  },
-  {
-    path: '/mnt/HC_Volume_4733554/files/',
-    filename: 'slpdb-testnet-bchn-01-20-21-f1f48a3b7a852e24fd26b3baf6df65b47de6d89e-1431114.zip'
-  },
-  {
-    path: '/mnt/HC_Volume_4733554/files/',
-    filename: 'fulcrum-mainnet-10-28-2020.zip'
-  },
-  {
-    path: '/mnt/HC_Volume_4733554/files/',
-    filename: 'fulcrum-testnet-10-29-2020.zip'
-  },
-  {
-    path: '/mnt/HC_Volume_7319195/',
-    filename: 'bchn-mainnet-655089-09-30-2020.zip'
-  }
+  // BCH
+  // {
+  //   // BCHN full node
+  //   path: '/mnt/usb-hd/full-nodes/bch/',
+  //   filename: 'bchn-mainnet-04-15-21-683465-v23.0.0.zip'
+  // },
+  // {
+  //   // BCHN fulcrum
+  //   path: '/mnt/usb-hd/indexers/bch/',
+  //   filename: 'fulcrum-v1.2.3-bch-683578-04-15-21.zip'
+  // },
+  // {
+  //   // BCHN SLPDB
+  //   path: '/mnt/usb-hd/indexers/bch/',
+  //   filename: 'slpdb-bchn-main-2021-03-24-680164-f1f48a3b7a852e24fd26b3baf6df65b47de6d89e.zip'
+  // },
+
+  // ABC
+  // {
+  //   // ABC full node
+  //   path: '/mnt/usb-hd/full-nodes/abc/',
+  //   filename: 'abc-mainnet-04-18-21-682645-0.23.1.zip'
+  // },
+  // {
+  //   // ABC Fulcrum
+  //   path: '/mnt/usb-hd/indexers/abc/',
+  //   filename: 'fulcrum-abc-mainnet-04-18-21-682669-v1.2.3.zip'
+  // },
+  // {
+  //   // ABC SLPDB
+  //   path: '/mnt/usb-hd/indexers/abc/',
+  //   filename: 'slpdb-abc-v1-f1f48a3b7a852e24fd26b3baf6df65b47de6d89e-01-19-21-669672.zip'
+  // },
+
+  // BCHN testnet3
+  // {
+  //   // testnet full node
+  //   path: '/mnt/usb-hd/full-nodes/testnet/',
+  //   filename: 'bchn-testnet3-04-12-2021-1442953.zip'
+  // },
+  // {
+  //   // testnet Fulcrum
+  //   path: '/mnt/usb-hd/indexers/testnet/',
+  //   filename: 'fulcrum-bchn-testnet3-04-12-21-1442953.zip'
+  // },
+  // {
+  //   // testnet SLPDB
+  //   path: '/mnt/usb-hd/indexers/testnet/',
+  //   filename: 'slpdb-testnet-bchn-01-20-21-f1f48a3b7a852e24fd26b3baf6df65b47de6d89e-1431114.zip'
+  // }
 ];
 
 // const filePath = "/mnt/HC_Volume_4733554/files/";
