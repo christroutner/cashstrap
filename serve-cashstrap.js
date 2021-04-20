@@ -3,57 +3,59 @@
 */
 
 const WebTorrent = require("webtorrent");
-const client = new WebTorrent();
+const client = new WebTorrent({
+  torrentPort: 58261
+});
 
 // const IPFS = require("./lib/ipfs");
 // const ipfs = new IPFS();
 
 const fileNames = [
   // BCH
-  {
-    // BCHN full node
-    path: '/mnt/usb-hd/full-nodes/bch/',
-    filename: 'bchn-mainnet-04-15-21-683465-v23.0.0.zip'
-  },
-  {
-    // BCHN fulcrum
-    path: '/mnt/usb-hd/indexers/bch/',
-    filename: 'fulcrum-v1.2.3-bch-683578-04-15-21.zip'
-  },
-  {
-    // BCHN SLPDB
-    path: '/mnt/usb-hd/indexers/bch/',
-    filename: 'slpdb-bchn-main-2021-03-24-680164-f1f48a3b7a852e24fd26b3baf6df65b47de6d89e.zip'
-  },
+  // {
+  //   // BCHN full node
+  //   path: '/mnt/usb-hd/full-nodes/bch/',
+  //   filename: 'bchn-mainnet-04-15-21-683465-v23.0.0.zip'
+  // },
+  // {
+  //   // BCHN fulcrum
+  //   path: '/mnt/usb-hd/indexers/bch/',
+  //   filename: 'fulcrum-v1.2.3-bch-683578-04-15-21.zip'
+  // },
+  // {
+  //   // BCHN SLPDB
+  //   path: '/mnt/usb-hd/indexers/bch/',
+  //   filename: 'slpdb-bchn-main-2021-03-24-680164-f1f48a3b7a852e24fd26b3baf6df65b47de6d89e.zip'
+  // },
 
   // ABC
-  {
-    // ABC full node
-    path: '/mnt/usb-hd/full-nodes/abc/',
-    filename: 'abc-mainnet-04-18-21-682645-0.23.1.zip'
-  },
-  {
-    // ABC Fulcrum
-    path: '/mnt/usb-hd/indexers/abc/',
-    filename: 'fulcrum-abc-mainnet-04-18-21-682669-v1.2.3.zip'
-  },
-  {
-    // ABC SLPDB
-    path: '/mnt/usb-hd/indexers/abc/',
-    filename: 'slpdb-abc-v1-f1f48a3b7a852e24fd26b3baf6df65b47de6d89e-01-19-21-669672.zip'
-  },
+  // {
+  //   // ABC full node
+  //   path: '/mnt/usb-hd/full-nodes/abc/',
+  //   filename: 'abc-mainnet-04-18-21-682645-0.23.1.zip'
+  // },
+  // {
+  //   // ABC Fulcrum
+  //   path: '/mnt/usb-hd/indexers/abc/',
+  //   filename: 'fulcrum-abc-mainnet-04-18-21-682669-v1.2.3.zip'
+  // },
+  // {
+  //   // ABC SLPDB
+  //   path: '/mnt/usb-hd/indexers/abc/',
+  //   filename: 'slpdb-abc-v1-f1f48a3b7a852e24fd26b3baf6df65b47de6d89e-01-19-21-669672.zip'
+  // },
 
   // BCHN testnet3
-  {
-    // testnet full node
-    path: '/mnt/usb-hd/full-nodes/testnet/',
-    filename: 'bchn-testnet3-04-12-2021-1442953.zip'
-  },
-  {
-    // testnet Fulcrum
-    path: '/mnt/usb-hd/indexers/testnet/',
-    filename: 'fulcrum-bchn-testnet3-04-12-21-1442953.zip'
-  },
+  // {
+  //   // testnet full node
+  //   path: '/mnt/usb-hd/full-nodes/testnet/',
+  //   filename: 'bchn-testnet3-04-12-2021-1442953.zip'
+  // },
+  // {
+  //   // testnet Fulcrum
+  //   path: '/mnt/usb-hd/indexers/testnet/',
+  //   filename: 'fulcrum-bchn-testnet3-04-12-21-1442953.zip'
+  // },
   {
     // testnet SLPDB
     path: '/mnt/usb-hd/indexers/testnet/',
