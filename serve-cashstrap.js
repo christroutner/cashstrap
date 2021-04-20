@@ -51,16 +51,16 @@ const fileNames = [
   //   path: '/mnt/usb-hd/full-nodes/testnet/',
   //   filename: 'bchn-testnet3-04-12-2021-1442953.zip'
   // },
-  // {
-  //   // testnet Fulcrum
-  //   path: '/mnt/usb-hd/indexers/testnet/',
-  //   filename: 'fulcrum-bchn-testnet3-04-12-21-1442953.zip'
-  // },
   {
-    // testnet SLPDB
+    // testnet Fulcrum
     path: '/mnt/usb-hd/indexers/testnet/',
-    filename: 'slpdb-testnet-bchn-01-20-21-f1f48a3b7a852e24fd26b3baf6df65b47de6d89e-1431114.zip'
+    filename: 'fulcrum-bchn-testnet3-04-12-21-1442953.zip'
   }
+  // {
+  //   // testnet SLPDB
+  //   path: '/mnt/usb-hd/indexers/testnet/',
+  //   filename: 'slpdb-testnet-bchn-01-20-21-f1f48a3b7a852e24fd26b3baf6df65b47de6d89e-1431114.zip'
+  // }
 ];
 
 // const filePath = "/mnt/HC_Volume_4733554/files/";
